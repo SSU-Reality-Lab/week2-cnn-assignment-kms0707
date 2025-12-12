@@ -4,6 +4,7 @@ from past.builtins import xrange
 from math import sqrt, ceil
 import numpy as np
 
+
 def visualize_grid(Xs, ubound=255.0, padding=1):
     """
     Reshape a 4D tensor of image data to a grid for easy visualization.
